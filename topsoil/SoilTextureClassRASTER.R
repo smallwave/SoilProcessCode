@@ -11,7 +11,7 @@ source("Code/Function.R")
 #************************************************************************************************
 # define var name
 #************************************************************************************************
-inputSoilDataPath <- "soilTextureClass/TEXT/TOP8.txt"
+inputSoilDataPath <- "soilTextureClass/TEXT/TOP1.txt"
 shapeFilePath<-"Shp/SOTERPOLY(TIBET).shp"
 inputSoilDataCvs <- "Output/ssdSoilTextureProcess.csv"
 outResPath <-"soilTextureClass/TOPSOIL/"

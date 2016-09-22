@@ -1,6 +1,6 @@
 library(soiltexture)
 library(psych)
-source("Code/Function.R")
+source("Code/SoilProcessCode/Function.R")
 #************************************************************************************************
 # define var name
 #************************************************************************************************
@@ -37,13 +37,7 @@ BulidMatrix <- function (dataObs, dataSim)
 #************************************************************************************************
 # 3  APPLICATON 1
 #************************************************************************************************
-nLayer<-1
-# nPloygon<-3
-dataType <-"obs"
-dataObs<-soilTextureDataByLayer(soilData,dataType,nLayer,TRUE)
-ID <- rownames(dataObs)
-dataObs <- data.frame(ID,dataObs) 
-dataObs$ID<-as.integer(as.character(dataObs$ID))
+15
 
 dataType <-"sim"
 dataSim<-soilTextureDataByLayer(soilData,dataType,nLayer,TRUE)
